@@ -57,8 +57,10 @@ namespace ATCsharpAniversario.Cli
         }
         public static void MenuPrincipal()
         {
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             ExibirAniversariantesDoDia();
 
+            Console.ForegroundColor = ConsoleColor.Red;
             EscreverNaTela("Menu do sistema de gerência de Aniversários:");
             EscreverNaTela("Selecione uma operação");
             EscreverNaTela("1 - Adicionar pessoa");
@@ -129,7 +131,12 @@ namespace ATCsharpAniversario.Cli
 
             EscreverNaTela("ID: " + id);
 
-            StatusAniversariante();
+            EscreverNaTela("Cadastrado com sucesso!");
+            EscreverNaTela("Pressione qualquer tecla para continuar");
+            Console.ReadKey();
+            LimparTela();
+
+            MenuPrincipal();
         }
         private static void OperacaoPesquisarPessoa()
         {
@@ -143,7 +150,8 @@ namespace ATCsharpAniversario.Cli
         }
         private static void OperacaoEditarPessoa()
         {
-            EscreverNaTela("Id?");
+            LimparTela();
+            EscreverNaTela("Favor informar o Id: ");
             string id = Console.ReadLine();
 
             var pessoa = BancoDeDados.BuscarPessoaPeloId(id);
@@ -169,12 +177,14 @@ namespace ATCsharpAniversario.Cli
             pessoa.DataNascimento = dataDeNascimento;
 
             BancoDeDados.Editar(pessoa);
+            Console.ReadKey();
+            LimparTela();
             MenuPrincipal();
         }
 
         private static void OperacaoExcluirPessoa()
         {
-            EscreverNaTela("Id?");
+            EscreverNaTela("Favor informar o Id: ");
             string id = Console.ReadLine();
 
             var pessoa = BancoDeDados.BuscarPessoaPeloId(id);
@@ -198,6 +208,7 @@ namespace ATCsharpAniversario.Cli
 
         static void StatusAniversariante()
         {
+            Console.ForegroundColor = ConsoleColor.Green;
             EscreverNaTela("Os dados cadastrados estão corretos? ");
             EscreverNaTela("1 - Operação consultar pessoa mais nova");
             EscreverNaTela("2 - Operação consultar pessoa com mesmo nome");
@@ -232,6 +243,8 @@ namespace ATCsharpAniversario.Cli
         {
             Pessoa pessoa = BancoDeDados.BuscarPessoaMaisNova();
             EscreverNaTela("A pessoas mais nova é: " + pessoa.Nome + " " + pessoa.SobreNome);
+            LimparTela();
+            StatusAniversariante();
         }
         private static void OperacaoPesquisarPessoaComMesmoNome()
         {
@@ -307,7 +320,7 @@ namespace ATCsharpAniversario.Cli
             }
 
             return retorno;
-
+            MenuPrincipal();
         }
 
         public static IBancoDeDados BancoDeDados = new BancoDeDadosDeArquivos();
