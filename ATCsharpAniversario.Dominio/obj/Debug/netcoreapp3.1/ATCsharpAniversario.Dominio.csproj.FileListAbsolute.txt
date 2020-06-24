@@ -1,0 +1,9 @@
+C:\Users\Carlos Ferreira\Desktop\Desenvolvimento_com_C#\GerenciamentoAniversarioCsharp\ATCsharpAniversario.Dominio\bin\Debug\netcoreapp3.1\ATCsharpAniversario.Dominio.deps.json
+C:\Users\Carlos Ferreira\Desktop\Desenvolvimento_com_C#\GerenciamentoAniversarioCsharp\ATCsharpAniversario.Dominio\bin\Debug\netcoreapp3.1\ATCsharpAniversario.Dominio.dll
+C:\Users\Carlos Ferreira\Desktop\Desenvolvimento_com_C#\GerenciamentoAniversarioCsharp\ATCsharpAniversario.Dominio\bin\Debug\netcoreapp3.1\ATCsharpAniversario.Dominio.pdb
+C:\Users\Carlos Ferreira\Desktop\Desenvolvimento_com_C#\GerenciamentoAniversarioCsharp\ATCsharpAniversario.Dominio\obj\Debug\netcoreapp3.1\ATCsharpAniversario.Dominio.csprojAssemblyReference.cache
+C:\Users\Carlos Ferreira\Desktop\Desenvolvimento_com_C#\GerenciamentoAniversarioCsharp\ATCsharpAniversario.Dominio\obj\Debug\netcoreapp3.1\ATCsharpAniversario.Dominio.AssemblyInfoInputs.cache
+C:\Users\Carlos Ferreira\Desktop\Desenvolvimento_com_C#\GerenciamentoAniversarioCsharp\ATCsharpAniversario.Dominio\obj\Debug\netcoreapp3.1\ATCsharpAniversario.Dominio.AssemblyInfo.cs
+C:\Users\Carlos Ferreira\Desktop\Desenvolvimento_com_C#\GerenciamentoAniversarioCsharp\ATCsharpAniversario.Dominio\obj\Debug\netcoreapp3.1\ATCsharpAniversario.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Carlos Ferreira\Desktop\Desenvolvimento_com_C#\GerenciamentoAniversarioCsharp\ATCsharpAniversario.Dominio\obj\Debug\netcoreapp3.1\ATCsharpAniversario.Dominio.dll
+C:\Users\Carlos Ferreira\Desktop\Desenvolvimento_com_C#\GerenciamentoAniversarioCsharp\ATCsharpAniversario.Dominio\obj\Debug\netcoreapp3.1\ATCsharpAniversario.Dominio.pdb

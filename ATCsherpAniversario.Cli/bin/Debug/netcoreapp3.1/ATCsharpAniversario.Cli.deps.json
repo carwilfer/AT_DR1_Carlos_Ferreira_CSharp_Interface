@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ATCsharpAniversario.Cli/1.0.0": {
+        "dependencies": {
+          "ATCsharpAniversario.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "ATCsharpAniversario.Cli.dll": {}
+        }
+      },
+      "ATCsharpAniversario.Dominio/1.0.0": {
+        "runtime": {
+          "ATCsharpAniversario.Dominio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ATCsharpAniversario.Cli/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ATCsharpAniversario.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

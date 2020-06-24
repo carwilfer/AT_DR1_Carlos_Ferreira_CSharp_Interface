@@ -1,0 +1,25 @@
+Olá Carlos Wiliams,
+
+Com o objetivo de praticar tudo o que foi aprendido na disciplina de Fundamentos
+de Desenvolvimento com C#, nesse Assessment, você deve criar, com o Visual 
+Studio, um projeto de uma aplicação Desktop de um dos seguintes tipos: Console 
+App (.NET Framework), Windows Forms App (.NET Framework) ou 
+WPF App (.NET Framework). Esse projeto será uma aplicação para o 
+Gerenciamento de Aniversários de Amigos. Você deve criar também um ou 
+mais projetos do tipo Class Library (.NET Framework) que deve conter o código
+relacionado a negócio e persistência. Todos os dados utilizados por essa
+aplicação devem ser armazenados em arquivos.
+
+Assim que a aplicação é iniciada, ela deve exibir os amigos que fazem 
+aniversário na data atual. A aplicação deve permitir que o usuário cadastre 
+aniversários de novos amigos, apague ou atualize aniversários de amigos 
+cadastrados. Também deve permitir buscar nomes de amigos por uma palavra-chave,
+e ao exibir os dados de um amigo deve exibir também quanto tempo falta para 
+o próximo aniversário do mesmo.
+
+Um amigo deve possuir, pelo menos, nome, sobrenome e data de aniversário.
+
+Você deve criar as classes e interfaces necessárias para essas funcionalidades,
+e organizá-las em bibliotecas. Tenha o cuidado de manter junto com o 
+código de apresentação, o mínimo possível de código de negócio e de 
+persistência.
